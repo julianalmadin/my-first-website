@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Repair Shop | Services</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My repair shop</h1>
+    <a href="about.html">About the shop</a>
+    <h2>Our Services</h2>
+<ul>
+  <li class="featured">
+  <a href="#oil-change">Oil Change</a>
+</li>
+  <li>Brake Inspection</li>
+  <li>Tire Rotation</li>
+</ul>
+
+<button id="hours-button">Show shop hours</button>
+<p id="hours-message"></p>
+<h2 id="oil-change">Oil Change Details</h2>
+<p>We replace the engine oil and oil filter during this service.</p>
+<h2>Service inquiry</h2>
+
+<form id="inquiry-form">
+  <label for="customer-email">Your email</label>
+  <input id="customer-email" type="email" required>
+  <label for="inquiry-service">Choose a service</label>
+<select id="inquiry-service" required>
+  <option value="">Select a service</option>
+  <p id="price-preview"></p>
+</select>
+  <button type="submit">Send inquiry</button>
+</form>
+<p id="inquiry-message"></p>
+<script src="script.js"></script>
+
+</body>
+</html>

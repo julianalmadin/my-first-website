@@ -1,0 +1,40 @@
+
+  h1 {
+    color: navy;
+  }
+
+  ul {
+  background-color: lightblue;
+  padding: 24px;
+}
+
+button {
+  background-color: navy;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: royalblue;
+}
+
+body {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.featured {
+  font-weight: bold;
+  color: navy;
+}
+#inquiry-form {
+  display: grid;
+  gap: 10px;
+  max-width: 360px;
+}
+
+#inquiry-form button {
+  justify-self: start;
+}
